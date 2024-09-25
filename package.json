@@ -1,0 +1,22 @@
+{
+  "name": "zustand-create-state",
+  "version": "1.0.1",
+  "description": "Easy zustand state creator",
+  "main": "index.ts",
+  "keywords": [
+    "zustand",
+    "state",
+    "create"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.17.9",
+    "lodash": "^4.17.21",
+    "typescript": "^5.6.2",
+    "zustand": "^5.0.0-rc.2"
+  }
+}
