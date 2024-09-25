@@ -1,6 +1,6 @@
 import { create, StoreApi, UseBoundStore } from "zustand";
 import _ from "lodash";
-import { StateType } from "../types";
+import { StateType } from "../index.d";
 
 const createState = <P extends string>(
   defaultValue: any,
