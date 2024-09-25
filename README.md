@@ -22,7 +22,7 @@ And import it as you do for any hooks.
 import { useUserStore } from "path/to/export/store";
 
 const Component = () => {
-  const { user, setUser } = useUserSt(); // user and setUser auto generated
+  const { user, setUser } = useUserStore(); // user and setUser auto generated
 
   return (
     <div>
